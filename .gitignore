@@ -1,0 +1,12 @@
+# Dados em claro — NUNCA versionar/publicar
+*.zip
+export/
+registro_completo.html
+registro.html
+registro.csv
+resumo.txt
+
+# Permitir apenas a pasta do site (conteúdo criptografado)
+!site/
+!site/index.html
+!site/registro_completo.html
